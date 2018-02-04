@@ -1,0 +1,15 @@
+.navbar{
+    border-radius: 0px;
+}
+
+.btn{
+    background-color: #222;
+}
+
+.panel-primary > .panel-heading{
+    background-color: #222;
+}
+
+.panel-primary{
+    border-color: #222;
+}
