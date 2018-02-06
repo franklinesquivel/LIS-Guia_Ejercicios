@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -29,21 +31,24 @@
     </nav>
     <br>
     <div class="container">
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <form action="" method="POST">
-                    <div class="panel panel-primary"> 
+                <!--Formulario-->
+                <form action="php/script.php" method="POST">
+                    <div class="panel panel-primary">
                         <div class="panel-heading text-center">
                             <h2 class="panel-title">Inscripción de materias - Técnico en Computación</h2>
                         </div>
                         <div class="panel-body">
-                            <div class="form-row col-md-12 form-group"> <!-- Nombre de las materias -->
+                            <!-- Nombre de las materias -->
+                            <div class="form-row col-md-12 form-group">
                                 <div class="col-md-8 ">
-                                    <input type="text" class="form-control" name="txtAsignatura_2" placeholder="Asignatura N°1">
+                                    <input type="text" class="form-control" name="txtAsignatura_1" placeholder="Asignatura N°1">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
-                                    <input class="form-check-input" type="checkbox" value="" id="chkAsignatura_2">
-                                    <label class="form-check-label" for="chkAsignatura_2">
+                                    <input class="form-check-input" type="checkbox" name="chkAsignatura_1" id="chkAsignatura_1">
+                                    <label class="form-check-label" for="chkAsignatura_1">
                                         ¿Laboratorio?
                                     </label>
                                 </div>
@@ -54,7 +59,7 @@
                                     <input type="text" class="form-control" name="txtAsignatura_2" placeholder="Asignatura N°2">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
-                                    <input class="form-check-input" type="checkbox" value="" id="chkAsignatura_2">
+                                    <input class="form-check-input" type="checkbox" name="chkAsignatura_2" id="chkAsignatura_2">
                                     <label class="form-check-label" for="chkAsignatura_2">
                                         ¿Laboratorio?
                                     </label>
@@ -66,7 +71,7 @@
                                     <input type="text" class="form-control" name="txtAsignatura_3" placeholder="Asignatura N°3">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
-                                    <input class="form-check-input" type="checkbox" value="" id="chkAsignatura_3">
+                                    <input class="form-check-input" type="checkbox" name="chkAsignatura_3" id="chkAsignatura_3">
                                     <label class="form-check-label" for="chkAsignatura_3">
                                         ¿Laboratorio?
                                     </label>
@@ -105,11 +110,11 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-12">
-                                    <input type="number" class="form-control" name="txtCuota" placeholder="Cuota del estudiante" >
+                                    <input type="number" class="form-control" name="txtCuota" placeholder="Cuota del estudiante">
                                 </div>
                             </div>
                             <div class="form-row text-center">
-                                <button type="button" class="btn btn-primary">Enviar</button>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
                             </div>
 
                         </div>
@@ -117,6 +122,9 @@
                 </form>
             </div>
         </div>
+
     </div>
+
 </body>
+
 </html>
