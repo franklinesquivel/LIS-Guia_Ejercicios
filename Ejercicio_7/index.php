@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilos.css">
+
 </head>
 
 <body>
@@ -44,7 +45,7 @@
                             <!-- Nombre de las materias -->
                             <div class="form-row col-md-12 form-group">
                                 <div class="col-md-8 ">
-                                    <input type="text" class="form-control" name="txtAsignatura_1" placeholder="Asignatura N°1">
+                                    <input type="text" class="form-control" name="txtAsignatura_1" id="txtAsignatura_1" placeholder="Asignatura N°1">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
                                     <input class="form-check-input" type="checkbox" name="chkAsignatura_1" id="chkAsignatura_1">
@@ -56,7 +57,7 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-8">
-                                    <input type="text" class="form-control" name="txtAsignatura_2" placeholder="Asignatura N°2">
+                                    <input type="text" class="form-control" name="txtAsignatura_2" id="txtAsignatura_2" placeholder="Asignatura N°2">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
                                     <input class="form-check-input" type="checkbox" name="chkAsignatura_2" id="chkAsignatura_2">
@@ -68,7 +69,7 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-8">
-                                    <input type="text" class="form-control" name="txtAsignatura_3" placeholder="Asignatura N°3">
+                                    <input type="text" class="form-control" name="txtAsignatura_3" id="txtAsignatura_3" placeholder="Asignatura N°3">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
                                     <input class="form-check-input" type="checkbox" name="chkAsignatura_3" id="chkAsignatura_3">
@@ -80,7 +81,7 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-8">
-                                    <input type="text" class="form-control" name="txtAsignatura_4" placeholder="Asignatura N°4">
+                                    <input type="text" class="form-control" name="txtAsignatura_4" id="txtAsignatura_4" placeholder="Asignatura N°4">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
                                     <input class="form-check-input" type="checkbox" name="chkAsignatura_4" id="chkAsignatura_4">
@@ -92,7 +93,7 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-8">
-                                    <input type="text" class="form-control" name="txtAsignatura_5" placeholder="Asignatura N°5">
+                                    <input type="text" class="form-control" name="txtAsignatura_5" id="txtAsignatura_5" placeholder="Asignatura N°5">
                                 </div>
                                 <div class="col-md-4 form-check text-right">
                                     <input class="form-check-input" type="checkbox" name="chkAsignatura_5" id="chkAsignatura_5">
@@ -110,11 +111,11 @@
                             <div class="form-row col-md-12 form-group">
                                 <!-- Nombre de las materias -->
                                 <div class="col-md-12">
-                                    <input type="number" class="form-control" name="txtCuota" placeholder="Cuota del estudiante">
+                                    <input type="number" class="form-control" name="txtCuota" id="txtCuota" placeholder="Cuota del estudiante">
                                 </div>
                             </div>
                             <div class="form-row text-center">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
                             </div>
 
                         </div>
@@ -124,7 +125,7 @@
         </div>
 
     </div>
-
+    <script src="js/ppal.js"></script>
 </body>
 
 </html>
