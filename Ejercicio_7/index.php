@@ -15,17 +15,17 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">LIS - Guía de Ejercicios</a>
+                <a class="navbar-brand" href="../">LIS - Guía de Ejercicios</a>
             </div>
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="#">Ejercicio 7</a>
+                    <a href="../Ejercicio_7/">Ejercicio 7</a>
                 </li>
                 <li>
-                    <a href="#">Ejercicio 5</a>
+                    <a href="../Ejercicio_5/">Ejercicio 5</a>
                 </li>
                 <li>
-                    <a href="#">Ejercicio 6</a>
+                    <a href="../Ejercicio_6/">Ejercicio 6</a>
                 </li>
             </ul>
         </div>
